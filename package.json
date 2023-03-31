@@ -1,10 +1,14 @@
 {
   "name": "electron-builder-test",
   "version": "1.0.0",
+
   "main": "main.js",
   "description": "Hello World!",
   "author": "Jake",
   "license": "MIT",
+  "scripts": {
+    "start": "electron ."
+  },
   "devDependencies": {
     "electron": "^23.2.1"
   },
