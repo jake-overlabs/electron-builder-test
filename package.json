@@ -1,0 +1,12 @@
+{
+  "name": "electron-builder-test",
+  "version": "1.0.0",
+  "main": "main.js",
+  "description": "Hello World!",
+  "author": "Jake",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^23.2.1"
+  },
+  "repository": "https://github.com/jake-overlabs/electron-builder-test"
+}
