@@ -18,9 +18,16 @@
     "pree2e": "vite build --mode=test",
     "e2e": "playwright test"
   },
+  "build": {
+    "appId": "com.jake.electron-builder-test",
+    "mac": {
+      "category": "dev"
+    }
+  },
   "dependencies": {
     "electron-updater": "^5.3.0"
   },
+
   "devDependencies": {
     "@playwright/test": "^1.32.0",
     "@types/react": "^18.0.28",
